@@ -16,9 +16,9 @@ const Navbar = () => {
         {
         
         user? <li><Link to="/profile"  
-        > <div onClick={()=>alert("Please try logout first")}>
+        > 
              Signup
-            </div></Link> </li>  : 
+            </Link> </li>  : 
         <li><Link to="/signup">Signup</Link></li>
 
         }

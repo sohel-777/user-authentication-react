@@ -14,7 +14,7 @@ const Profile=()=> {
     // Check if the user is not authenticated (access token is not available)
     if (!user.accessToken) {
       navigate('/signup');
-      alert("Please try Signup first")
+      
     }
   }, [user, navigate]);
 
